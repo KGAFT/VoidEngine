@@ -1,0 +1,154 @@
+Fri Feb 07 07:37:13 MSK 2025 VOIDENGINE_VK_CONTEXT GENERAL [VERBOSE] initializing instance
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Searching for implicit layer manifest files
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    In following locations:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.config/vulkan/implicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.config/kdedefaults/vulkan/implicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /etc/xdg/vulkan/implicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /etc/vulkan/implicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.local/share/vulkan/implicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.local/share/flatpak/exports/share/vulkan/implicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /var/lib/flatpak/exports/share/vulkan/implicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/local/share/vulkan/implicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/share/vulkan/implicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /etc/eselect/wine/share/vulkan/implicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    Found the following files:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /etc/vulkan/implicit_layer.d/renderdoc_capture.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.local/share/vulkan/implicit_layer.d/steamoverlay_i386.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.local/share/vulkan/implicit_layer.d/steamoverlay_x86_64.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.local/share/vulkan/implicit_layer.d/steamfossilize_i386.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.local/share/vulkan/implicit_layer.d/steamfossilize_x86_64.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /etc/vulkan/implicit_layer.d/renderdoc_capture.json (file version 1.1.2)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /home/kgaft/.local/share/vulkan/implicit_layer.d/steamoverlay_i386.json (file version 1.0.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /home/kgaft/.local/share/vulkan/implicit_layer.d/steamoverlay_x86_64.json (file version 1.0.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /home/kgaft/.local/share/vulkan/implicit_layer.d/steamfossilize_i386.json (file version 1.0.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /home/kgaft/.local/share/vulkan/implicit_layer.d/steamfossilize_x86_64.json (file version 1.0.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json (file version 1.0.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Searching for explicit layer manifest files
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    In following locations:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.config/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.config/kdedefaults/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /etc/xdg/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /etc/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.local/share/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.local/share/flatpak/exports/share/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /var/lib/flatpak/exports/share/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/local/share/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/share/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /etc/eselect/wine/share/vulkan/explicit_layer.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    Found the following files:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_api_dump.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_crash_diagnostic.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_monitor.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_screenshot.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/share/vulkan/explicit_layer.d/VkLayer_MESA_overlay.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_api_dump.json (file version 1.2.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_khronos_synchronization2.json (file version 1.2.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json (file version 1.2.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_crash_diagnostic.json (file version 1.2.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_khronos_profiles.json (file version 1.2.1)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_monitor.json (file version 1.0.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_gfxreconstruct.json (file version 1.2.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_screenshot.json (file version 1.2.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_khronos_shader_object.json (file version 1.2.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found manifest file /usr/share/vulkan/explicit_layer.d/VkLayer_MESA_overlay.json (file version 1.0.0)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Searching for driver manifest files
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    In following locations:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.config/vulkan/icd.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.config/kdedefaults/vulkan/icd.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /etc/xdg/vulkan/icd.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /etc/vulkan/icd.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.local/share/vulkan/icd.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /home/kgaft/.local/share/flatpak/exports/share/vulkan/icd.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /var/lib/flatpak/exports/share/vulkan/icd.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/local/share/vulkan/icd.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/share/vulkan/icd.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /etc/eselect/wine/share/vulkan/icd.d
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    Found the following files:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/share/vulkan/icd.d/dzn_icd.x86_64.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/share/vulkan/icd.d/dzn_icd.i686.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/share/vulkan/icd.d/radeon_icd.x86_64.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]       /usr/share/vulkan/icd.d/radeon_icd.i686.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found ICD manifest file /usr/share/vulkan/icd.d/dzn_icd.x86_64.json, version 1.0.0
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Searching for ICD drivers named /usr/lib64/libvulkan_dzn.so
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found ICD manifest file /usr/share/vulkan/icd.d/dzn_icd.i686.json, version 1.0.0
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Searching for ICD drivers named /usr/lib/libvulkan_dzn.so
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] /usr/lib/libvulkan_dzn.so: wrong ELF class: ELFCLASS32
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Requested ICD /usr/lib/libvulkan_dzn.so was wrong bit-type. Ignoring this JSON
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found ICD manifest file /usr/share/vulkan/icd.d/radeon_icd.x86_64.json, version 1.0.0
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Searching for ICD drivers named /usr/lib64/libvulkan_radeon.so
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Found ICD manifest file /usr/share/vulkan/icd.d/radeon_icd.i686.json, version 1.0.0
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Searching for ICD drivers named /usr/lib/libvulkan_radeon.so
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] /usr/lib/libvulkan_radeon.so: wrong ELF class: ELFCLASS32
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Requested ICD /usr/lib/libvulkan_radeon.so was wrong bit-type. Ignoring this JSON
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Loading layer library libVkLayer_khronos_validation.so
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Insert instance layer "VK_LAYER_KHRONOS_validation" (libVkLayer_khronos_validation.so)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Loading layer library libVkLayer_MESA_device_select.so
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] Insert instance layer "VK_LAYER_MESA_device_select" (libVkLayer_MESA_device_select.so)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] vkCreateInstance layer callstack setup to:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    <Application>
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      ||
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    <Loader>
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      ||
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    VK_LAYER_MESA_device_select
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            Type: Implicit
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]                Disable Env Var:  NODEVICE_SELECT
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            Manifest: /usr/share/vulkan/implicit_layer.d/VkLayer_MESA_device_select.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            Library:  libVkLayer_MESA_device_select.so
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      ||
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    VK_LAYER_KHRONOS_validation
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            Type: Explicit
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            Manifest: /opt/vulkan_sdk/1.3.296.0/x86_64/share/vulkan/explicit_layer.d/VkLayer_khronos_validation.json
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            Library:  libVkLayer_khronos_validation.so
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      ||
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]    <Drivers>
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [WARNING] terminator_CreateInstance: Received return code -3 from call to vkCreateInstance in ICD /usr/lib64/libvulkan_dzn.so. Skipping this driver.
+Fri Feb 07 07:37:13 MSK 2025 VULKAN VALIDATION [INFO] Validation Information: [ WARNING-CreateInstance-status-message ] Object 0: handle = 0x7f220c44e220, type = VK_OBJECT_TYPE_INSTANCE; | MessageID = 0x23dfd876 | vkCreateInstance():  Khronos Validation Layer Active:
+    Current Enables: None.
+    Current Disables: None.
+
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] linux_read_sorted_physical_devices:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Original order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Sorted order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)  
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] linux_read_sorted_physical_devices:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Original order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Sorted order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)  
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Copying old device 0 into new device 0
+Fri Feb 07 07:37:13 MSK 2025 VOIDENGINE_VK_CONTEXT GENERAL [VERBOSE] instance successfully initialized
+Fri Feb 07 07:37:13 MSK 2025 VOIDENGINE_VK_CONTEXT GENERAL [VERBOSE] started picking device phase
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] linux_read_sorted_physical_devices:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Original order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Sorted order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)  
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Copying old device 0 into new device 0
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] linux_read_sorted_physical_devices:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Original order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Sorted order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)  
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Copying old device 0 into new device 0
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] linux_read_sorted_physical_devices:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Original order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Sorted order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)  
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Copying old device 0 into new device 0
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO] linux_read_sorted_physical_devices:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Original order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]      Sorted order:
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [INFO]            [0] AMD Radeon RX 6800 XT (RADV NAVI21)  
+Fri Feb 07 07:37:13 MSK 2025 VULKAN GENERAL [VERBOSE] Copying old device 0 into new device 0
+Fri Feb 07 07:37:13 MSK 2025 VOIDENGINE_VK_CONTEXT GENERAL [VERBOSE] found 0 devices
+Fri Feb 07 07:37:13 MSK 2025 VOIDENGINE_VK_CONTEXT GENERAL [ERROR] found Failed to find suitable devices

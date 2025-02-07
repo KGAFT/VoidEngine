@@ -1,0 +1,4 @@
+[submodule "modules/VulkanLib"]
+	path = modules/VulkanLib
+	url = https://github.com/KGAFT/VulkanLib
+	branch = java
