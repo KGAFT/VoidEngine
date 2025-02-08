@@ -9,6 +9,7 @@ import com.kgaft.VulkanLib.Device.LogicalDevice.LogicalDevice;
 import com.kgaft.VulkanLib.Device.PhysicalDevice.DeviceSuitability;
 import com.kgaft.VulkanLib.Device.PhysicalDevice.DeviceSuitabilityResults;
 import com.kgaft.VulkanLib.Device.PhysicalDevice.PhysicalDevice;
+import com.kgaft.VulkanLib.Device.SwapChain;
 import com.kgaft.VulkanLib.Instance.Instance;
 import com.kgaft.VulkanLib.Instance.InstanceBuilder;
 import com.kgaft.VulkanLib.Instance.InstanceLogger.DefaultVulkanFileLoggerCallback;
@@ -29,6 +30,7 @@ public class VulkanContext {
     private static Instance instance = null;
     private static boolean debugEnabled = false;
     private static LogicalDevice device = null;
+    private static SwapChain swapChain = null;
     private static Window attachedWindow = null;
     public static void initialize(boolean requireDebug){
         PointerBuffer windowExtensions = glfwGetRequiredInstanceExtensions();
@@ -69,7 +71,6 @@ public class VulkanContext {
         List<PhysicalDevice> supportedDevicesS = new ArrayList<>();
         DeviceBuilder deviceBuilder= new DeviceBuilder();
         deviceBuilder.requestGraphicSupport();
-        deviceBuilder.addExtension("fjnosadofhbods");
         if(rtEnable){
             deviceBuilder.requestRayTracingSupport();
         }
@@ -96,7 +97,8 @@ public class VulkanContext {
         Logger.dispatchMessage(new LoggerMessage("GENERAL", "VOIDENGINE_VK_CONTEXT", "INFO", "Selected device: "+physDev.getProperties().get().deviceNameString(), false));
         try {
             device = new LogicalDevice(instance, physDev, deviceBuilder, supportedDevices.get(physDev));
-        } catch (VkErrorException e) {
+            swapChain = new SwapChain(device, window.getSurface(instance.getInstance()), window.getWidth(), window.getHeight(), true);
+        } catch (VkErrorException | IllegalClassFormatException e) {
             throw new RuntimeException(e);
         }
 
@@ -105,6 +107,7 @@ public class VulkanContext {
 
     public static void shutdown(){
         if(device!=null){
+            swapChain.destroy();
             device.destroy();
             KHRSurface.vkDestroySurfaceKHR(instance.getInstance(), attachedWindow.getSurface(instance.getInstance()), null);
         }
