@@ -12,6 +12,8 @@ import com.kgaft.VulkanLib.Device.PhysicalDevice.PhysicalDevice;
 import com.kgaft.VulkanLib.Device.SwapChain;
 import com.kgaft.VulkanLib.Instance.Instance;
 import com.kgaft.VulkanLib.Instance.InstanceBuilder;
+import com.kgaft.VulkanLib.Instance.InstanceLogger.DefaultVulkanFileLoggerCallback;
+import com.kgaft.VulkanLib.Instance.InstanceLogger.DefaultVulkanLoggerCallback;
 import com.kgaft.VulkanLib.Utils.VkErrorException;
 import org.lwjgl.PointerBuffer;
 import org.lwjgl.vulkan.KHRSurface;
@@ -52,7 +54,7 @@ public class VulkanContext {
         try {
             instance = new Instance(builder);
             Logger.dispatchMessage(new LoggerMessage("GENERAL", "VOIDENGINE_VK_CONTEXT", "VERBOSE", "instance successfully initialized", false));
-        } catch (Throwable e) {
+        } catch (VkErrorException e) {
             throw new RuntimeException(e);
         }
     }
@@ -92,6 +94,7 @@ public class VulkanContext {
             throw new RuntimeException("Failed to find suitable devices");
         }
         PhysicalDevice physDev = picker.pickDevice(supportedDevicesS);
+        physDev.getMemProperties().get().memoryHeaps().get().
         Logger.dispatchMessage(new LoggerMessage("GENERAL", "VOIDENGINE_VK_CONTEXT", "INFO", "Selected device: "+physDev.getProperties().get().deviceNameString(), false));
         try {
             device = new LogicalDevice(instance, physDev, deviceBuilder, supportedDevices.get(physDev));
