@@ -1,6 +1,0 @@
-[submodule "modules/VulkanLib"]
-	path = modules/VulkanLib
-	url = https://github.com/kgaft/VulkanLib
-[submodule "modules/SDL"]
-	path = modules/SDL
-	url = https://github.com/libsdl-org/SDL
