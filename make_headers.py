@@ -39,11 +39,11 @@ def generate_jni_headers(source_dir, output_dir):
         print(f"Error while generating JNI headers: {e}")
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser(description="Generate JNI headers for Java files.")
-    # parser.add_argument("source_dir", help="Directory containing Java source files.")
-    #parser.add_argument("output_dir", help="Directory to store generated JNI headers.")
+    parser = argparse.ArgumentParser(description="Generate JNI headers for Java files.")
+    parser.add_argument("source_dir", help="Directory containing Java source files.")
+    parser.add_argument("output_dir", help="Directory to store generated JNI headers.")
 
-    #args = parser.parse_args()
+    args = parser.parse_args()
     source_dir = "src/main/java/com/kgaft/VoidEngine/JNI"
     output_dir = "jni_include/"
-    generate_jni_headers(source_dir, output_dir)
+    generate_jni_headers(args.source_dir, args.output_dir)
