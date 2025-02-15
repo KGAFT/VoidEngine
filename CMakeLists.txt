@@ -5,11 +5,12 @@ project(VoidEngine)
 add_subdirectory(modules/SDL)
 add_subdirectory(modules/VulkanLib)
 
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+
 find_package(JNI REQUIRED)
 
 file(GLOB_RECURSE SRC_FILES src/main/cxx/*.*)
 
-message(WARNING ${JAVA_FILES})
 add_library(VoidEngine SHARED ${SRC_FILES})
 
 target_include_directories(VoidEngine PRIVATE ${JNI_INCLUDE_DIRS} jni_include/)
