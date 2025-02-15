@@ -1,6 +1,7 @@
 import os
 import subprocess
 import argparse
+import shutil
 
 def generate_jni_headers(source_dir, output_dir):
     """
@@ -47,3 +48,4 @@ if __name__ == "__main__":
     source_dir = "src/main/java/com/kgaft/VoidEngine/JNI"
     output_dir = "jni_include/"
     generate_jni_headers(args.source_dir, args.output_dir)
+    shutil.copytree("../modules/VulkanLib-java/src/main/java/com/kgaft/VulkanLib", "../src/main/java/com/kgaft/VulkanLib")
